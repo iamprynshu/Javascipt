@@ -25,3 +25,11 @@ let myobj = {       //Object
 let myFunc = function(){ //Function
     console.log("Hello World");
 }
+
+
+// +++++++++++++++++++++++++++++
+
+// Memory Allocation 
+
+// Primitive  =>  Stack [Copy of the original value is passed]
+// Non Primitive  => Heap [Reference of the original value is passed]
