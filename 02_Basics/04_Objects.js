@@ -54,3 +54,16 @@ console.log(Object.values(tinderUser)); // It returns the array of values of Obj
 console.log(Object.entries(tinderUser)); // It returns the array of arrays of all the entries of Object tinderUser.
 
 console.log(tinderUser.hasOwnProperty("isLoggedIn")); //It returns true or false.
+
+// Object destructuring :-
+
+const course = {
+    courseName : "javascript",
+    price : "999",
+    courseInstructor : "HiteshChaudhary"
+}
+
+const {courseInstructor:Instructor} = course; //Object destructuring
+
+//console.log(courseInstructor);
+console.log(Instructor);
